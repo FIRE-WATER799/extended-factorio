@@ -127,4 +127,30 @@ else
   data.raw["recipe"]["enhanced-piercing-magazine"].hidden = false
 end
 --------------------------------------------------------------------------------------------------
-
+if settings.startup["reinforced-ammo"].value then
+  data.raw["item"]["reinforced-magazine"].enabled = false
+  data.raw["item"]["reinforced-magazine"].hidden = true
+  data.raw["technology"]["reinforced-magazine"].enabled = false
+  data.raw["technology"]["reinforced-magazine"].hidden = true
+  data.raw["recipe"]["reinforced-magazine"].enabled = false
+  data.raw["recipe"]["reinforced-magazine"].hidden = true
+  data.raw["item"]["reinforced-piercing-magazine"].enabled = false
+  data.raw["item"]["reinforced-piercing-magazine"].hidden = true
+  data.raw["technology"]["reinforced-piercing-magazine"].enabled = false
+  data.raw["technology"]["reinforced-piercing-magazine"].hidden = true
+  data.raw["recipe"]["reinforced-piercing-magazine"].enabled = false
+  data.raw["recipe"]["reinforced-piercing-magazine"].hidden = true
+else
+  data.raw["item"]["reinforced-magazine"].enabled = true
+  data.raw["item"]["reinforced-magazine"].hidden = false
+  data.raw["technology"]["reinforced-magazine"].enabled = true
+  data.raw["technology"]["reinforced-magazine"].hidden = false
+  data.raw["recipe"]["reinforced-magazine"].enabled = true
+  data.raw["recipe"]["reinforced-magazine"].hidden = false
+  data.raw["item"]["reinforced-piercing-magazine"].enabled = true
+  data.raw["item"]["reinforced-piercing-magazine"].hidden = false
+  data.raw["technology"]["reinforced-piercing-magazine"].enabled = true
+  data.raw["technology"]["reinforced-piercing-magazine"].hidden = false
+  data.raw["recipe"]["reinforced-piercing-magazine"].enabled = true
+  data.raw["recipe"]["reinforced-piercing-magazine"].hidden = false
+end

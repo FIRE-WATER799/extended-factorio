@@ -115,56 +115,85 @@ function get_circuit_connector_sprites(mainOffset, shadowOffset, connectorNumber
   return result;
 end
 
+local recipes = "prototypes.recipes."
+local items = "prototypes.items."
+local technology = "prototypes.technology."
+local entity = "prototypes.entity"
+
 --load Base Updates
-require("prototypes.entity.base-entity-updates")
+require(entity .. "base-entity-updates")
 -- Load Atomic Plate
-require("prototypes.item.atomic-plate")
-require("prototypes.tech.atomic-plate")
-require("prototypes.crafting.atomic-plate")
+require(items .. "atomic-plate")
+require(technology .. "atomic-plate")
+require(recipes .. "atomic-plate")
 -- Load Reinforced Plate
-require("prototypes.item.reinforced-plate")
-require("prototypes.tech.reinforced-plate")
-require("prototypes.crafting.reinforced-plate")
+require(items .. "reinforced-plate")
+require(technology .. "reinforced-plate")
+require(recipes .. "reinforced-plate")
 -- Load Enriched Plate
-require("prototypes.item.enriched-plate")
-require("prototypes.tech.enriched-plate")
-require("prototypes.crafting.enriched-plate")
+require(items .. "enriched-plate")
+require(technology .. "enriched-plate")
+require(recipes .. "enriched-plate")
 --Load Advanced Solar
-require("prototypes.entity.enhanced-solar")
-require("prototypes.crafting.enhanced-solar")
-require("prototypes.item.enhanced-solar")
-require("prototypes.tech.enhanced-solar")
+require(entity .. "enhanced-solar")
+require(recipes .. "enhanced-solar")
+require(items .. "enhanced-solar")
+require(technology .. "enhanced-solar")
 --Load Reinforced Solar
-require("prototypes.entity.reinforced-solar")
-require("prototypes.crafting.reinforced-solar")
-require("prototypes.item.reinforced-solar")
-require("prototypes.tech.reinforced-solar")
+require(entity .. "reinforced-solar")
+require(recipes .. "reinforced-solar")
+require(items .. "reinforced-solar")
+require(technology .. "reinforced-solar")
 --Load Atomic Solar
-require("prototypes.entity.atomic-solar")
-require("prototypes.crafting.atomic-solar")
-require("prototypes.item.atomic-solar")
-require("prototypes.tech.atomic-solar")
+require(entity .. "atomic-solar")
+require(recipes .. "atomic-solar")
+require(items .. "atomic-solar")
+require(technology .. "atomic-solar")
 --Load Wood To Coal
-require("prototypes.crafting.wood-coal")
-require("prototypes.tech.wood-coal")
+require(recipes .. "wood-coal")
+require(technology .. "wood-coal")
 --Load Basic Fuel Capsule
-require("prototypes.crafting.basic-fuel-capsule")
-require("prototypes.item.basic-fuel-capsule")
-require("prototypes.tech.basic-fuel-capsule")
+require(recipes .. "basic-fuel-capsule")
+require(items .. "basic-fuel-capsule")
+require(technology .. "basic-fuel-capsule")
 --Load Enhanced Fuel Capsule
-require("prototypes.crafting.enhanced-fuel-capsule")
-require("prototypes.item.enhanced-fuel-capsule")
-require("prototypes.tech.enhanced-fuel-capsule")
+require(recipes .. "enhanced-fuel-capsule")
+require(items .. "enhanced-fuel-capsule")
+require(technology .. "enhanced-fuel-capsule")
 --Load Reinforced Fuel Capsule
-require("prototypes.crafting.reinforced-fuel-capsule")
-require("prototypes.item.reinforced-fuel-capsule")
-require("prototypes.tech.reinforced-fuel-capsule")
+require(recipes .. "reinforced-fuel-capsule")
+require(items .. "reinforced-fuel-capsule")
+require(technology .. "reinforced-fuel-capsule")
 --Load Atomic Fuel Capsule
-require("prototypes.crafting.atomic-fuel-capsule")
-require("prototypes.item.atomic-fuel-capsule")
-require("prototypes.tech.atomic-fuel-capsule")
+require(recipes .. "atomic-fuel-capsule")
+require(items .. "atomic-fuel-capsule")
+require(technology .. "atomic-fuel-capsule")
 --Load Atomic Artillery Shell
-require("prototypes.crafting.atomic-artillery")
-require("prototypes.item.atomic-artillery")
-require("prototypes.tech.atomic-artillery")
-require("prototypes.entity.atomic-artillery")
+require(recipes .. "atomic-artillery")
+require(items .. "atomic-artillery")
+require(technology .. "atomic-artillery")
+require(entity .. "atomic-artillery")
+--Load Enhanced Ammo
+require(recipes .. "enhanced-magazine")
+require(items .. "enhanced-magazine")
+require(technology .. "enhanced-magazine")
+--Load Enhanced Piercing Ammo
+require(recipes .. "enhanced-piercing-magazine")
+require(items .. "enhanced-piercing-magazine")
+require(technology .. "enhanced-piercing-magazine")
+--Load Reinforced Ammo
+require(recipes .. "reinforced-magazine")
+require(items .. "reinforced-magazine")
+require(technology .. "reinforced-magazine")
+--Load Reinforced Piercing Ammo
+require(recipes .. "reinforced-piercing-magazine")
+require(items .. "reinforced-piercing-magazine")
+require(technology .. "reinforced-piercing-magazine")
+--Load Atomic Ammo
+require(recipes .. "atomic-magazine")
+require(items .. "atomic-magazine")
+require(technology .. "atomic-magazine")
+--Load Atomic Piercing Ammo
+require(recipes .. "atomic-piercing-magazine")
+require(items .. "atomic-piercing-magazine")
+require(technology .. "atomic-piercing-magazine")

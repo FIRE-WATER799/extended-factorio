@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.15
+Date: 2022.10.3
+  Added:
+    - Enhanced, Reinforced, Atomic ammo in firearm and piercing variety
+    - Setting to control new ammo
+  Changed:
+    - Different settings around
+---------------------------------------------------------------------------------------------------
 Version: 0.0.14
 Date: 2022.2.1
   Added:

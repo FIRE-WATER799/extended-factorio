@@ -86,8 +86,45 @@ if settings.startup["atomic-artillery"].value then
   data.raw["recipe"]["atomic-artillery"].hidden = true
 else
   data.raw["ammo"]["atomic-artillery"].enabled = true
-  data.raw["ammo"]["atomic-artillery"].enabled = false
+  data.raw["ammo"]["atomic-artillery"].hidden = false
   data.raw["technology"]["atomic-artillery"].enabled = true
 end
-
+--------------------------------------------------------------------------------------------------
+if settings.startup["wood-coal"].value then
+  data.raw["technology"]["wood-coal"].enabled = false
+  data.raw["technology"]["wood-coal"].hidden = true
+  data.raw["recipe"]["wood-coal"].enabled = false
+  data.raw["recipe"]["wood-coal"].hidden = true
+else
+  data.raw["technology"]["wood-coal"].enabled = true
+end
+--------------------------------------------------------------------------------------------------
+if settings.startup["enhanced-ammo"].value then
+  data.raw["item"]["enhanced-magazine"].enabled = false
+  data.raw["item"]["enhanced-magazine"].hidden = true
+  data.raw["technology"]["enhanced-magazine"].enabled = false
+  data.raw["technology"]["enhanced-magazine"].hidden = true
+  data.raw["recipe"]["enhanced-magazine"].enabled = false
+  data.raw["recipe"]["enhanced-magazine"].hidden = true
+  data.raw["item"]["enhanced-piercing-magazine"].enabled = false
+  data.raw["item"]["enhanced-piercing-magazine"].hidden = true
+  data.raw["technology"]["enhanced-piercing-magazine"].enabled = false
+  data.raw["technology"]["enhanced-piercing-magazine"].hidden = true
+  data.raw["recipe"]["enhanced-piercing-magazine"].enabled = false
+  data.raw["recipe"]["enhanced-piercing-magazine"].hidden = true
+else
+  data.raw["item"]["enhanced-magazine"].enabled = true
+  data.raw["item"]["enhanced-magazine"].hidden = false
+  data.raw["technology"]["enhanced-magazine"].enabled = true
+  data.raw["technology"]["enhanced-magazine"].hidden = false
+  data.raw["recipe"]["enhanced-magazine"].enabled = true
+  data.raw["recipe"]["enhanced-magazine"].hidden = false
+  data.raw["item"]["enhanced-piercing-magazine"].enabled = true
+  data.raw["item"]["enhanced-piercing-magazine"].hidden = false
+  data.raw["technology"]["enhanced-piercing-magazine"].enabled = true
+  data.raw["technology"]["enhanced-piercing-magazine"].hidden = false
+  data.raw["recipe"]["enhanced-piercing-magazine"].enabled = true
+  data.raw["recipe"]["enhanced-piercing-magazine"].hidden = false
+end
+--------------------------------------------------------------------------------------------------
 

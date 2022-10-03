@@ -64,4 +64,28 @@ data:extend
     per_user = false,
     order = "a1"
   },
+  {
+    type = "bool-setting",
+    name = "wood-coal",
+    setting_type = "startup",
+    default_value = false,
+    per_user = false,
+    order = "a1"
+  },
+  {
+    type = "bool-setting",
+    name = "enhanced-ammo",
+    setting_type = "startup",
+    default_value = false,
+    per_user = false,
+    order = "a1"
+  },
+  {
+    type = "bool-setting",
+    name = "reinforced-ammo",
+    setting_type = "startup",
+    default_value = false,
+    per_user = false,
+    order = "a1"
+  },
 }

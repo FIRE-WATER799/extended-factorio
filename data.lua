@@ -115,7 +115,7 @@ function get_circuit_connector_sprites(mainOffset, shadowOffset, connectorNumber
   return result;
 end
 
---load Base Entity Updates
+--load Base Updates
 require("prototypes.entity.base-entity-updates")
 -- Load Atomic Plate
 require("prototypes.item.atomic-plate")

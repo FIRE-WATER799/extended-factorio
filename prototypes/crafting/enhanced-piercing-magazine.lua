@@ -7,7 +7,7 @@ data:extend(
     enabled=false,
     ingredients =
     {
-        {"enhanced-plate", 1},
+        {"enriched-plate", 1},
         {"piercing-rounds-magazine", 2}
     },
     result="enhanced-piercing-magazine"

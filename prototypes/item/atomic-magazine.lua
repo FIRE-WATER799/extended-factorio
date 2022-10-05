@@ -2,8 +2,8 @@ data:extend(
   {
     {
       type = "ammo",
-      name = "reinforced-magazine",
-      icon = "__Extended-Factorio__/graphics/items/ammo/reinforced-firearm-magazine.png",
+      name = "atomic-magazine",
+      icon = "__Extended-Factorio__/graphics/items/ammo/atomic-firearm-magazine.png",
       icon_mipmaps = 4,
       icon_size = 32,
       ammo_type =

@@ -4,7 +4,7 @@ data:extend(
     type = "technology",
     name = "reinforced-magazine",
     icon = "__Extended-Factorio__/graphics/items/ammo/reinforced-firearm-magazine.png",
-    icon_size = 64,
+    icon_size = 32,
     effects =
     {
       {

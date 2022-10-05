@@ -115,10 +115,10 @@ function get_circuit_connector_sprites(mainOffset, shadowOffset, connectorNumber
   return result;
 end
 
-local recipes = "prototypes.recipes."
-local items = "prototypes.items."
-local technology = "prototypes.technology."
-local entity = "prototypes.entity"
+local recipes = "prototypes.crafting."
+local items = "prototypes.item."
+local technology = "prototypes.tech."
+local entity = "prototypes.entity."
 
 --load Base Updates
 require(entity .. "base-entity-updates")

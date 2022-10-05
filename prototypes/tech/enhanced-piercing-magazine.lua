@@ -2,7 +2,7 @@ data:extend(
 {
   {
     type = "technology",
-    name = "enhanced-piercing-ammo",
+    name = "enhanced-piercing-magazine",
     icon = "__Extended-Factorio__/graphics/items/ammo/enhanced-piercing-magazine.png",
     icon_size = 32,
     effects =

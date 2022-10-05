@@ -1,7 +1,6 @@
 local sounds = require("__base__.prototypes.entity.sounds")
 
 local max_nuke_shockwave_movement_distance_deviation = 2
-local max_nuke_shockwave_movement_distance = 19 + max_nuke_shockwave_movement_distance_deviation / 6
 local nuke_shockwave_starting_speed_deviation = 0.075
 
 data:extend(
@@ -53,10 +52,10 @@ data:extend(
 			  type = "instant",
 			  target_effects =
 			  {
-				--Damage effects				
+				--Damage effects
 				{
 					type = "nested-result",
-					action = 
+					action =
 					{
 						radius = 53, --same size as the shockwave to follow, needed to get auto-targeting to space shots correctly. Switched to fire because the thermal pulse is also a thing on nukes.
 						--Finally, by having this here, you get the radar update with everything dying like you expect with a nuke.

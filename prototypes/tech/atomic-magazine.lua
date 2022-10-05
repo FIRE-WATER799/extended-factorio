@@ -12,7 +12,7 @@ data:extend(
         recipe = "atomic-magazine"
       }
     },
-    prerequisites = {"atomic-plate", "reinforced-ammo"},
+    prerequisites = {"atomic-plate", "reinforced-magazine"},
     unit =
     {
       count = 200,

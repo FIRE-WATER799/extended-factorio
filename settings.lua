@@ -88,4 +88,12 @@ data:extend
     per_user = false,
     order = "a1"
   },
+  {
+    type = "bool-setting",
+    name = "atomic-ammo",
+    setting_type = "startup",
+    default_value = false,
+    per_user = false,
+    order = "a1"
+  },
 }

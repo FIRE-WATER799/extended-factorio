@@ -12,7 +12,7 @@ data:extend(
         recipe = "atomic-piercing-magazine"
       }
     },
-    prerequisites = {"atomic-plate", "reinforced-piercing-ammo"},
+    prerequisites = {"atomic-plate", "reinforced-piercing-magazine"},
     unit =
     {
       count = 250,

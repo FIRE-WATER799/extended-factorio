@@ -115,7 +115,7 @@ function get_circuit_connector_sprites(mainOffset, shadowOffset, connectorNumber
   return result;
 end
 
-local prototypes = 'prototypes.'
+local prototypes = 'proto.'
 local recipes = prototypes .. "crafting."
 local items = prototypes .. "item."
 local technology = prototypes .. "tech."

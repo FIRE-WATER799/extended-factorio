@@ -27,7 +27,7 @@ data:extend(
 				},
 			},
 		},
-		subgroup = "ammo",
+		subgroup = "extfac-ammo",
 		order = "d[explosive-cannon-shell]-d[artillery]",
 		stack_size = 1
 	}

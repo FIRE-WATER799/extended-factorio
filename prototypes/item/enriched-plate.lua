@@ -5,7 +5,7 @@ data:extend(
     name="enriched-plate",
     icon="__Extended-Factorio__/graphics/items/enriched-plate.png",
     icon_size=32,
-    subgroup="intermediate-product",
+    subgroup="extfac-plate",
     order="e-b",
     stack_size=200
   }

@@ -5,7 +5,7 @@ data:extend(
     name="reinforced-plate",
     icon="__Extended-Factorio__/graphics/items/reinforced-plate.png",
     icon_size=32,
-    subgroup="intermediate-product",
+    subgroup="extfac-plate",
     order="e-b",
     stack_size=100
   }

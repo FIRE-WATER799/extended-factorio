@@ -26,8 +26,8 @@ data:extend(
         }
       },
       magazine_size = 10,
-      group = "combat",
-      subgroup = "ammo",
+      group = "extfac",
+      subgroup = "extfac-ammo",
       stack_size = 200
     }
   })

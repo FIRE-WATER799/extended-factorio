@@ -8,7 +8,7 @@ data:extend{
     fuel_value = "200MJ",
     fuel_acceleration_multiplier = 1.5,
     fuel_top_speed_multiplier = 1.4,
-    subgroup = "other",
+    subgroup = "extfac-capsule",
     order = "r-b",
     stack_size = 50,
     default_request_amount = 50

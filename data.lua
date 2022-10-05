@@ -115,12 +115,15 @@ function get_circuit_connector_sprites(mainOffset, shadowOffset, connectorNumber
   return result;
 end
 
-local recipes = "prototypes.crafting."
-local items = "prototypes.item."
-local technology = "prototypes.tech."
-local entity = "prototypes.entity."
+local prototypes = 'prototypes.'
+local recipes = prototypes .. "crafting."
+local items = prototypes .. "item."
+local technology = prototypes .. "tech."
+local entity = prototypes .. "entity."
 
---load Base Updates
+--Load Item Groups
+require(prototypes .. "item-groups.lua")
+--Load Base Updates
 require(entity .. "base-entity-updates")
 -- Load Atomic Plate
 require(items .. "atomic-plate")

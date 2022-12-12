@@ -19,7 +19,7 @@ jobs:
       - name: Create GitHub release
         uses: Roang-zero1/github-create-release-action@master
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GUTHUB_TOKEN }}
           UPDATE_EXISTING: "true"
           VERSION_REGEX: ^[[:digit:]]+\.[[:digit:]]+\.[[:digit:]]+
       - name: Tag Filter
@@ -29,6 +29,6 @@ jobs:
       - name: Upload GitHub artifacts
         uses: Roang-zero1/github-upload-release-artifacts-action@master
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GUTHUB_TOKEN }}
         with:
           args: dist/

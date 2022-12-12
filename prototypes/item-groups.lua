@@ -7,6 +7,7 @@ data:extend
         order = "za",
         inventory_order = "za",
         icon = "__Extended-Factorio__/graphics/items/atomic-plate.png",
+        icon_size = 64,
       },
       {
         type = "item-subgroup",

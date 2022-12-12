@@ -5,7 +5,7 @@ local technology = prototypes .. "tech."
 local entity = prototypes .. "entity."
 
 --Load Item Groups
-require(prototypes .. "item-groups.lua")
+require(prototypes .. "item-groups")
 --Load Base Updates
 require(entity .. "base-entity-updates")
 -- Load Atomic Plate

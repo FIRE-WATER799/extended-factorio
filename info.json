@@ -3,6 +3,9 @@
   "version": "0.0.15",
   "title": "Extended Factorio",
   "author": "fire/FIRE153",
+  "dependencies": [
+		"(?) jetpack"
+	],
   "description": "Different tiers of random items",
   "factorio_version": "1.1"
 }

@@ -10,6 +10,6 @@ data:extend(
         {"atomic-plate", 1},
         {"reinforced-piercing-magazine", 2}
     },
-    result="atomic-magazine"
+    result="atomic-piercing-magazine"
   }
 })

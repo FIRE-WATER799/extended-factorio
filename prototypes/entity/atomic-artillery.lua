@@ -274,7 +274,7 @@ data:extend(
 						{
 						  type = "create-entity",
 						  entity_name = "nuclear-smouldering-smoke-source",
-						  tile_collision_mask = { "water-tile" }
+						  tile_collision_mask = {layers = {water_tile = true}},
 						}
 					  }
 					}

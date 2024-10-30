@@ -6,6 +6,7 @@ data:extend(
       icon = "__Extended-Factorio__/graphics/items/ammo/reinforced-firearm-magazine.png",
       icon_mipmaps = 4,
       icon_size = 32,
+      ammo_category = "bullet",
       ammo_type =
       {
         category = "bullet",

@@ -13,4 +13,5 @@ data:extend(
     results = {
       {type="item", name="atomic-plate", amount = 1}
     },
+  }
 })

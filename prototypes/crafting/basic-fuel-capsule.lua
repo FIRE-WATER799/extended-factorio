@@ -7,9 +7,11 @@ data:extend(
     enabled=false,
     ingredients =
     {
-        {"coal", 5},
-        {"iron-plate", 10}
+      {type="item", name="coal", amount=5},
+      {type="item", name="iron-plate", amount=10},
     },
-    result="basic-fuel-capsule"
+    results = {
+      {type="item", name="basic-fuel-capsule", amount = 1}
+    },
   }
 })

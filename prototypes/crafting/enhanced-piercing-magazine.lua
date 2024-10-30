@@ -7,9 +7,11 @@ data:extend(
     enabled=false,
     ingredients =
     {
-        {"enriched-plate", 1},
-        {"piercing-rounds-magazine", 2}
+      {type="item", name="enriched-plate", amount=1},
+      {type="item", name="piercing-rounds-magazine", amount=2},
     },
-    result="enhanced-piercing-magazine"
+    results = {
+      {type="item", name="enhanced-piercing-magazine", amount = 1}
+    },
   }
 })

@@ -7,10 +7,12 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"enriched-plate", 10},
-      {"solar-panel", 10}
+      {type="item", name="enriched-plate", amount=10},
+      {type="item", name="solar-panel", amount=10},
     },
-    result = "enhanced-solar"
+    results = {
+      {type="item", name="enhanced-solar", amount = 1}
+    },
   }
 }
 )

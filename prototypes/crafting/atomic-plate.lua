@@ -7,9 +7,10 @@ data:extend(
     enabled=false,
     ingredients =
     {
-        {"reinforced-plate", 2},
-        {"plastic-bar", 10}
+      {type="item", name="reinforced-plate", amount=2},
+      {type="item", name="plastic-bar", amount=10},
     },
-    result="atomic-plate"
-  }
+    results = {
+      {type="item", name="atomic-plate", amount = 1}
+    },
 })

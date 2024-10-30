@@ -7,9 +7,11 @@ data:extend(
     enabled=false,
     ingredients =
     {
-        {"enriched-plate", 1},
-        {"firearm-magazine", 2}
+      {type="item", name="enriched-plate", amount=1},
+      {type="item", name="firearm-magazine", amount=2},
     },
-    result="enhanced-magazine"
+    results = {
+      {type="item", name="enhanced-magazine", amount = 1}
+    }
   }
 })

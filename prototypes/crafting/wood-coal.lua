@@ -8,9 +8,11 @@ data:extend(
     enabled=false,
     ingredients =
     {
-        {"wood", 2}
+      {type="item", name="wood", amount=2},
     },
-    result="coal"
+    results = {
+      {type="item", name="coal", amount = 1}
+    },
   }
 }
 )

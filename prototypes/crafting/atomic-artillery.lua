@@ -7,12 +7,14 @@ data:extend(
     enabled=false,
     ingredients =
     {
-        {"atomic-plate", 1},
-        {"atomic-bomb", 5},
-        {"rocket-fuel", 50},
-        {"artillery-shell", 5},
-        {"rocket-control-unit", 10}
+      {type="item", name="atomic-plate", amount=1},
+      {type="item", name="rocket-control-unit", amount=10},
+      {type="item", name="atomic-bomb", amount=5},
+      {type="item", name="procket-fuel", amount=50},
+      {type="item", name="artillery-shell", amount=5},
     },
-    result="atomic-artillery"
+    results = {
+      {type="item", name="atomic-artillery", amount = 1}
+    },
   }
 })

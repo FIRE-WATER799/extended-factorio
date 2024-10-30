@@ -7,9 +7,11 @@ data:extend(
     enabled=false,
     ingredients =
     {
-        {"atomic-plate", 10},
-        {"reinforced-fuel-capsule", 20}
+      {type="item", name="atomic-plate", amount=10},
+      {type="item", name="reinforced-fuel-capsule", ammount=20}
     },
-    result="atomic-fuel-capsule"
+    results = {
+      {type="item", name="atomic-fuel-capsule", amount = 1}
+    },
   }
 })

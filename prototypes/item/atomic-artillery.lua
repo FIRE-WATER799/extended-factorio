@@ -6,8 +6,7 @@ data:extend(
 		icon = "__Extended-Factorio__/graphics/items/atomic-artillery.png",
 		icon_size = 32,
 		ammo_category = "artillery_shell"
-		ammo_type =
-		{
+		ammo_type = {
 			category = "artillery-shell",
 			target_type = "position",
 			action =

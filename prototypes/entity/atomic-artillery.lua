@@ -136,6 +136,7 @@ data:extend(
 				  tile_name = "nuclear-ground",
 				  radius = 18,
 				  apply_projection = true,
+				  tile_collision_mask = {layers = {water_tile = true}},
 				},
 				{
 				  type = "create-entity",

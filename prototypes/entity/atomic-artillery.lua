@@ -5,7 +5,7 @@ local nuke_shockwave_starting_speed_deviation = 0.075
 data:extend(
 {
 	{
-		type = "artillery-projectile",
+		type = "artillery-shell",
 		name = "atomic-artillery",
 		flags = {"not-on-map"},
 		acceleration = 0,

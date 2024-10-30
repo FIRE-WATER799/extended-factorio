@@ -8,7 +8,7 @@ data:extend(
     ingredients =
     {
       {type="item", name="atomic-plate", amount=1},
-      {type="item", name="areinforced-piercing-magazine", amount=2},
+      {type="item", name="reinforced-piercing-magazine", amount=2},
     },
     results = {
       {type="item", name="atomic-piercing-magazine", amount = 1}

@@ -12,7 +12,7 @@ data:extend(
         recipe = "atomic-artillery"
       }
     },
-    prerequisites = {"rocket-control-unit", "artillery", "rocket-fuel", "atomic-bomb", "atomic-plate"},
+    prerequisites = {"processing-unit", "artillery", "rocket-fuel", "atomic-bomb", "atomic-plate"},
     unit =
     {
       count = 1000,

@@ -7,7 +7,7 @@ data:extend(
     enabled=false,
     ingredients =
     {
-      {type="item", name="enrched-plate", amount=10},
+      {type="item", name="enriched-plate", amount=10},
       {type="item", name="basic-fuel-capsule", amount=10},
     },
     results = {

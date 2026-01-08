@@ -12,14 +12,10 @@ data:extend(
         recipe = "wood-coal"
       }
     },
-    unit =
+    research_trigger = 
     {
-      count = 50,
-      ingredients =
-      {
-        {"automation-science-pack", 1}
-      },
-      time = 30
+      type = "mine-entity",
+      entity = "tree",
     },
     order = "a-h-c",
   }

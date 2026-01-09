@@ -12,7 +12,7 @@ data:extend(
         recipe = "wood-coal"
       }
     },
-    research_trigger = 
+    research_trigger =
     {
       type = "mine-entity",
       entity = "tree",
